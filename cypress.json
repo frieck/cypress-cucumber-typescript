@@ -1,0 +1,6 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/v5.0.0/cli/schema/cypress.schema.json",
+  "chromeWebSecurity": false,
+  "testFiles": "**/**/*.feature",
+  "ignoreTestFiles": "*.ts"
+}

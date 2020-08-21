@@ -1,0 +1,22 @@
+{
+  "name": "cypress-cucumber-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "cypress open"
+  },
+  "dependencies": {
+    "@types/node": "^14.6.0",
+    "cypress": "^5.0.0",
+    "cypress-cucumber-preprocessor": "^2.5.4",
+    "tsify": "^5.0.2",
+    "typescript": "^4.0.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true
+    }
+  }
+}
